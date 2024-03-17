@@ -20,23 +20,21 @@ function Header() {
           <li>
             <NavLink 
                 className={({isActive}) =>`block px-4 py-2 mt-5 md:my-0 md:px-0 md:py-0 hover:text-gray-300 `} 
-                to='/' 
-                onClick={toggleNavbar}>
+                to='/' >
               Home
             </NavLink>
           </li>
           <li>
             <NavLink 
                 className={({isActive}) =>`block px-4 py-2 md:px-0 md:py-0 hover:text-gray-300 `} 
-                to='/projects' 
-                onClick={toggleNavbar}>
+                to='/projects' >
               Projects
             </NavLink>
           </li>
           <li>
             <NavLink 
                 className={({isActive}) =>`block px-4 py-2 md:px-0 md:py-0 hover:text-gray-300 `} 
-                to='/about' onC
+                to='/about' 
                 lick={toggleNavbar}>
               About
             </NavLink>
@@ -44,7 +42,7 @@ function Header() {
           <li>
             <NavLink 
                 className={({isActive}) =>`block px-4 py-2 md:px-0 md:py-0 hover:text-gray-300 `} 
-                to='/contact' o
+                to='/contact'
                 nClick={toggleNavbar}>
               Contact
             </NavLink>
